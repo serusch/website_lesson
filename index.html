@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	  <!-- Важная техническая информация для браузера -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Информация об Авторе и описание проекта -->
+		<meta name="description" content="Сайт разработчика Сергея Уварова">
+		<meta name="auyhor" content="Uvarov Sergey">
+
+		<!-- Иконка, которая будет на вкладке в браузере -->
+		<link rel="icon" href="/favicon.ico">
+		<!-- Заголовок на вкладке в браузере -->
+		<title>Portfolio</title>
+		
+		<!-- Подключили шрицты Google -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+		<!-- Подключаем наш файл со стилями, который находится в папке css-->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<img class="header-img animated fadeInLeftBig"  src="img/main-img.png" alt="Monitor">
+				</div>
+				<!-- /.col-7 -->
+
+				<div class="col-lg-5">
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Начинающий веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Сергей Уваров</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Разработка макета сайта<br>Верстка на HTML/CSS <br>
+					Вынрузка сайта в интернет и его сопровождение</p>
+					<div class="header-button-blok wow fadeInRightBig" data-wow-delay="0.4s"">
+						<a href="https://vk.com/"  class="header-button">Связаться</a>
+					<small>*Это бесплатно</small>
+					</div>
+				</div>
+				<!-- /.col-5 -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</header>
+
+
+	<section class="portfolio">
+		<div class="container">
+			<div class="portfolio-blok wow fadeIn" >
+				<h2 class="portfolio-title">Портфолио</h2>
+				<p class="portfolio-subtitle">Мои работы</p>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="portfolio-col-1">
+							<img src="img/portfolio-img-1.jpg" alt="Газпром">
+							<h3>Внутренний университет «Газпром нефти»</h3>
+							<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
+							<a href="#">Смотреть работу</a>
+						</div>
+					</div>
+					<!-- /.col-6 -->
+
+					<div class="col-md-6">
+						<div class="portfolio-col-2">
+							<img src="img/portfolio-img-2.jpg" alt="Мир">
+							<h3>Сайт платежной системы «Мир»</h3>
+							<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
+							<a href="#">Смотреть работу</a>
+						</div>						
+					</div>
+					<!-- /.col-6 -->
+				</div>	
+
+			</div>
+		</div>
+		<!-- /.container -->
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h4 class="footer-author">Сергей Уваров</h4>
+					<p class="footer-text">Разработка сайтов под ключ</p>
+				</div>
+				<div class="col-md-4">
+					<div class="social-block">
+						<p>Подпишитесь:</p>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://fb.com/"><img  src="img/socials/facebook-logo-button.png" alt="Facebok"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://web.telegram.org/#/login"><img  src="img/socials/telegram-symbol.png" alt="Telegramm"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s"href="https://vk.com/"><img  src="img/socials/vk-social-logotype.png" alt="В контакте"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://www.youtube.com/"><img  src="img/socials/youtube-symbol.png" alt="Ютуб"></a>
+					</div>
+				</div>
+				<!-- /.col-4 -->
+				<div class="col-md-4">
+					<div class="footer-cta-block">
+						<p class="footer-cta">Напишите мне:</p>
+						<a href="https://vk.com/"  class="footer-button">Написать</a>
+					</div>				
+				</div>
+				<!-- /.col-4 -->
+				
+			</div>
+		</div>
+		<!-- /.container -->
+	</footer>
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+</body>
+</html>
